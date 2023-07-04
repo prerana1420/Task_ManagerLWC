@@ -1,0 +1,38 @@
+<template>
+    <lightning-layout class="slds-align_absolute-center slds-text-align_center container" multiple-rows="true">
+        <lightning-layout-item size="12">
+            <div class="time slds-m-vertical_xx-large">{time}</div>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12">
+            <div class="Greet slds-m-vertical_x-large"> {Greet} </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12">
+            <div class="slds-text-heading_large slds-m-vertical_large slds-m-bottom_x-large">
+                What's your main focus today!
+            </div>
+        </lightning-layout-item>
+
+        <lightning-layout-item size="12" small-device-size="12" large-device-size={largePageSize}
+            medium-device-size="10" class="slds-m-top_large">
+            <!-- <lightning-layout> -->
+                <lightning-layout-item  size="9" class="ib">
+                    <lightning-input class="ib slds-m-vertical_xx-large" type="text" label="Whats in your mind..." variant="label-hidden"
+                        placeholder="Whats in your mind.."></lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item size="12">
+                    <lightning-button-icon variant="border-filled" size="medium" icon-name="action:add_relationship" alternative-text="Add" title="Add todo"
+                        onclick={todoHandler}>
+                    </lightning-button-icon>
+                </lightning-layout-item>
+            <!-- </lightning-layout> -->
+        </lightning-layout-item>
+
+       
+        
+    </lightning-layout>
+
+
+    
+</template>

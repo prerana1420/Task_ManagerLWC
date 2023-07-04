@@ -1,0 +1,32 @@
+.container {
+    background-color: white;
+    background-image: url("https://source.unsplash.com/random/1920x1080/?nature,day");
+    padding: 16px;
+    /* max-height: 480px; */
+    height: 100vh;
+    width: 85vw;
+    display: block;
+    border-radius: 5px;
+    overflow-y: scroll;
+    text-shadow: 5px 5px 20px white;
+
+}
+
+.Greet {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.time {
+    font-size: 6rem;
+    font-weight: 600;
+
+}
+
+.ib {
+    background-color: rgba(0,0,0,0) !important;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    width: 26rem;
+}
